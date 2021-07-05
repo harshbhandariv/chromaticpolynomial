@@ -9,6 +9,16 @@ export default function Main() {
     e.preventDefault();
     setResult(() => findChromaticPolynomial(vector).reverse());
   }
+  function handleChange(e) {
+    if (e.target.value.length > 45) return;
+    if (
+      e.nativeEvent.data === '1' ||
+      e.nativeEvent.data === '0' ||
+      e.nativeEvent.inputType === 'deleteContentBackward'
+    ) {
+      setVector(e.target.value);
+    }
+  }
   return (
     <div className="Main">
       <div className="container">
@@ -24,16 +34,7 @@ export default function Main() {
                 onFocus={(e) => e.target.select()}
                 autoComplete="off"
                 value={vector}
-                onChange={(e) => {
-                  if (e.target.value.length > 45) return;
-                  if (
-                    e.nativeEvent.data === '1' ||
-                    e.nativeEvent.data === '0' ||
-                    e.nativeEvent.inputType === 'deleteContentBackward'
-                  ) {
-                    setVector(e.target.value);
-                  }
-                }}
+                onChange={handleChange}
               />
               <small>
                 Adjacency vector consists of 0s and 1s only and its size is
@@ -90,6 +91,34 @@ export default function Main() {
                 </span>
               );
             })}
+          </div>
+        </div>
+      </div>
+      <div className="instruction">
+        <h2>FAQ</h2>
+        <div className="question">What is adjacency vector of the Graph? </div>
+        <div className="answer">
+          <div>
+            It is simple! It is just a minified version of Adjacency List, so it
+            is easy to write in one single line
+          </div>
+          <div>
+            For, example - the adjacency list for a Graph with 3 nodes,
+            <p>{'1 -> 3'}</p>
+            <p>{'2 -> 3,4'}</p>
+            <p>{'3 -> 4'}</p>
+            can be written as, '010111'
+            <p>
+              The first three numbers '010' - explains vertex 1 is connected to
+              vertex 3 but not connected to vertices 2 and 4
+            </p>
+            <p>
+              The next two numbers '11' - explains vertex 2 is connected to both
+              vertices 3 and 4
+            </p>
+            <p>
+              The final number '1' - explains vertex 3 is connected to vertex 4
+            </p>
           </div>
         </div>
       </div>
