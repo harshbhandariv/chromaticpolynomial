@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/chromaticpolynomial/static/css/main.98a89b22.chunk.css",
-    "main.js": "/chromaticpolynomial/static/js/main.f8ff0595.chunk.js",
-    "main.js.map": "/chromaticpolynomial/static/js/main.f8ff0595.chunk.js.map",
+    "main.css": "/chromaticpolynomial/static/css/main.a8d0d4c8.chunk.css",
+    "main.js": "/chromaticpolynomial/static/js/main.b4caef3e.chunk.js",
+    "main.js.map": "/chromaticpolynomial/static/js/main.b4caef3e.chunk.js.map",
     "runtime-main.js": "/chromaticpolynomial/static/js/runtime-main.0e7028e5.js",
     "runtime-main.js.map": "/chromaticpolynomial/static/js/runtime-main.0e7028e5.js.map",
     "static/js/2.3d66437f.chunk.js": "/chromaticpolynomial/static/js/2.3d66437f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4d8ed1cd.chunk.js": "/chromaticpolynomial/static/js/3.4d8ed1cd.chunk.js",
     "static/js/3.4d8ed1cd.chunk.js.map": "/chromaticpolynomial/static/js/3.4d8ed1cd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.98a89b22.chunk.css.map": "/chromaticpolynomial/static/css/main.98a89b22.chunk.css.map",
+    "static/css/main.a8d0d4c8.chunk.css.map": "/chromaticpolynomial/static/css/main.a8d0d4c8.chunk.css.map",
     "static/js/2.3d66437f.chunk.js.LICENSE.txt": "/chromaticpolynomial/static/js/2.3d66437f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "/chromaticpolynomialstatic/js/runtime-main.0e7028e5.js",
-    "/chromaticpolynomialstatic/js/2.3d66437f.chunk.js",
-    "/chromaticpolynomialstatic/css/main.98a89b22.chunk.css",
-    "/chromaticpolynomialstatic/js/main.f8ff0595.chunk.js"
+    "/chromaticpolynomial/static/js/runtime-main.0e7028e5.js",
+    "/chromaticpolynomial/static/js/2.3d66437f.chunk.js",
+    "/chromaticpolynomial/static/css/main.a8d0d4c8.chunk.css",
+    "/chromaticpolynomial/static/js/main.b4caef3e.chunk.js"
   ]
 }
