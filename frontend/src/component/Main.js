@@ -103,7 +103,7 @@ export default function Main() {
             is easy to write in one single line
           </div>
           <div>
-            For, example - the adjacency list for a Graph with 3 nodes,
+            For, example - the adjacency list for a Graph with 4 nodes,
             <p>{'1 -> 3'}</p>
             <p>{'2 -> 3,4'}</p>
             <p>{'3 -> 4'}</p>
